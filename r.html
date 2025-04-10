@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Loan Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg);
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-size: 100% 100%;
+      background-image: transparent;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff9f9;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgb(237, 234, 234);
+      background-image: transparent;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Bank Loan Registration Form</h2>
+    <form>
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <label for="loanType">Loan Type</label>
+      <select id="loanType" name="loanType" required>
+        <option value="">--Select Loan Type--</option>
+        <option value="home">Home Loan</option>
+        <option value="car">Car Loan</option>
+        <option value="personal">Personal Loan</option>
+        <option value="education">Education Loan</option>
+      </select>
+
+      <label for="amount">Loan Amount</label>
+      <input type="number" id="amount" name="amount" required>
+
+      <label for="income">Annual Income</label>
+      <input type="number" id="income" name="income" required>
+
+      <label for="occupation">Occupation</label>
+      <input type="text" id="occupation" name="occupation" required>
+
+      <label for="doc">Upload ID Proof</label>
+      <input type="file" id="doc" name="doc" accept=".pdf,.jpg,.png" required>
+
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+  </div>
+
+</body>
+</html>

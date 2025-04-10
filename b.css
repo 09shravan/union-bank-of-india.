@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    }
+    
+    
+.container1{
+    font-size:45px;
+    text-align: center;
+    color: rgb(59, 71, 143);
+    text-decoration: underline  3px  rgb(0, 0, 0);
+    margin:220px;
+}    
+
+.logo{
+    width:120px;
+    background-image: transparent;
+    mix-blend-mode: color-burn;
+}
+
+
+.marquee{
+    color:rgb(0, 0, 0);
+    margin:15px;
+  }
+
+  
+ 
+.btn3{
+    
+    float:right;
+    font-weight: bold;
+    cursor: grab;
+    font-size: medium;
+    padding: 10px;
+    border-radius:25px;
+    width:150px;
+    text-align:center;
+    margin-top:200px;
+    float: right;
+    margin:15px;
+    text-align: center;
+    transition-property: width, height;
+    transition-duration: 2s;
+    background-color:transparent;
+  }
+   
+  .btn4{
+    
+    float:right;
+    font-weight: bold;
+    cursor: grab;
+    font-size: medium;
+    padding: 10px;
+    border-radius:25px;
+    width:150px;
+    text-align:center;
+    margin-top:200px;
+    float:left;
+    text-align: center;
+    margin:15px;
+    transition-property: width, height;
+    transition-duration: 2s;
+    background-color: transparent;
+    
+    }
+  
+  
+   .btn4:hover{
+    width:190px;
+  
+   }
+  
+   
+   .btn3:hover{
+    width:190px;
+    
+   }
+  
